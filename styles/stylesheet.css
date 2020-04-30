@@ -1,0 +1,91 @@
+/* write 50 lines of CSS that apply to the index.html file of you portfolio project*/
+body {
+  background-color: #e6e6e6;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  color: rgba(0, 0, 0, 1);
+}
+
+header .title{
+  color: rgba(242, 242, 242, 1);
+  text-shadow: 2px 2px black;
+  font-size: 3em;
+  border-style: dashed;
+  border-width: 3px;
+  border-color: rgba(128, 128, 128, 0.15);
+  width: 62%;
+}
+
+header .subhead {
+  font-size: 0.75em;
+  font-family: serif;
+  font-weight: normal;
+  font-style: italic;
+  color: rgba(128, 128, 128, 1);
+  text-shadow: 0px 0px #e6e6e6;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  font-family: serif;
+}
+
+footer {
+  color: rgba(0, 0, 0, 0.75 );
+  border-style: dashed;
+  border-width: 3px;
+  border-color: rgba(128, 128, 128, 0.15);
+  width: 11%;
+}
+
+.smalllink {
+  font-style: italic;
+}
+
+.pname {
+  color: blue;
+  text-decoration: none;
+}
+
+.pname:hover {
+  color: blue;
+  border-bottom: 1px solid;
+}
+
+.pname:active {
+  color: red
+}
+
+/* Styling guide for Links
+
+a {
+
+}
+
+
+a:link {
+
+}
+
+a:visited {
+
+}
+
+a:focus {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+*/
