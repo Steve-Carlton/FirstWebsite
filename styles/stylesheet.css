@@ -1,12 +1,20 @@
 /* CSS that applies to the index.html file of portfolio project*/
 html {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-  background-color: #e6e6e6;
+  background-color: rgba(230, 230, 230, 1);
   font-family: "Open Sans", Arial, sans-serif;
   color: rgba(0, 0, 0, 1);
+  padding: 0;
+  margin: 0;
+}
+
+body .content {
+  padding: 0 1rem;
 }
 
 header .title{
@@ -18,6 +26,7 @@ header .title{
   border-width: 3px;
   border-color: rgba(128, 128, 128, 0.15);
   width: 62%;
+  margin: 1rem 1rem;
 }
 
 header .subhead {
@@ -37,6 +46,10 @@ h2 {
 
 h3 {
   font-size: 1.5em;
+}
+
+h5 {
+  visibility: hidden;
 }
 
 p {
@@ -68,18 +81,42 @@ p {
   width: 30rem;
   border: solid 1px;
   margin: .5rem;
-  padding: .5rem;
+}
+
+.article header, .article p {
+    padding: .5rem;
 }
 
 
 footer {
-  color: rgba(0, 0, 0, 0.75 );
-  border-style: none;
-  border-width: 3px;
-  border-color: rgba(128, 128, 128, 0.15);
+  color: rgba(75, 75, 75, 1);
+  background-color: rgba(220, 220, 220, 1);
+  padding: 0;
+  margin: 0;
+
   text-align: center;
-  
 }
+
+footer * {
+  padding: 1rem .25rem;
+}
+
+footer a:link {
+  color: rgba(75, 75, 75, 1);
+}
+
+footer a:hover .fab {
+  color: rgba(20, 100, 150, 1);
+}
+
+footer a:hover .fas {
+  color: rgba(255, 255, 255, 1);
+}
+
+footer a:visited {
+  color: rgba(75, 75, 75, 1);
+}
+
 /* Styling guide for Links
 
 a {
