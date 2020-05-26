@@ -66,7 +66,7 @@ h2 a:nth-of-type(1n+2) { /*set spacing of nav menu items >=2*/
 }
 
 nav a:hover {
-  color: rgba(150, 150, 150, 1);
+  color: rgba(200, 200, 200, 1);
   background-color: rgba(75, 75, 75, 1);
   border: 1px solid rgba(75, 75, 75, 1);
   transition: all 0.3s ease;
@@ -113,16 +113,22 @@ p {
 
 .smalllink {
   font-style: italic;
+
 }
 
 .smalllink:hover {
-  background-color: lightblue;
+  /*background-color: lightblue;*/
 }
 
 .pname {
   color: black;
   font-weight: bold;
   text-decoration: underline;
+  transition: font-size;
+}
+
+.pname:hover {
+  font-size: 110%;
 }
 
 .container {
@@ -162,13 +168,16 @@ footer a:link {
 
 footer a:hover .fab {
   color: rgba(20, 100, 150, 1);
-  transition: all 0.3s ease;
+  filter: drop-shadow(0 0 0.5rem white);
+  transform: scale(1.1);
+  transition: all 0.2s ease;
 }
 
 footer a:hover .fas {
   color: rgba(120, 120, 120, 1);
   filter: drop-shadow(0 0 0.5rem white);
-  transition: all 0.3s ease;
+  transform: scale(1.1);
+  transition: all 0.2s ease;
 }
 
 footer a:visited {
